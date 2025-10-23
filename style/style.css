@@ -203,16 +203,14 @@
     justify-content: center;
     align-items: center;
     gap: 48px;
-     margin-left: 140px;
-    margin-right: 145px; 
-    /* border: 4px solid tomato; */
-    
+    margin-left: 140px;
+    margin-right: 145px;
+
 }
 
 .ispire-box {
     display: flex;
     flex-direction: column;
-    /* margin-left: 144px; */
     justify-content: center;
     align-items: center;
     gap: 24;
@@ -243,17 +241,295 @@
 }
 
 .inspire-video {
-    width: 1253px; 
-    height: 500px; 
+    width: 1253px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10;
-    padding: 32px 32px 32px 32px ;
-
+    gap: 10px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    
+
+}
+
+.frame-2 {
+    width: 1253px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 145px;
+    margin-bottom: 111px;
+    margin-top: 150px;
+}
+
+.target-container {
+    width: 946px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.target-title {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-description {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+.target-box {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+
+.box-1 {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.box-2 {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.box-3 {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.icon-title {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.icone-description {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.icone-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+
+}
+
+.icone-button {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.frame-3 {
+    width: 1253px;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    margin-left: 140px;
+    margin-right: 145px;
+}
+
+.next-container {
+    width: 946px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+.next-title {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.next-description {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.next-box {
+    width: 1140px;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.next-box-1 {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.next-box-2 {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.next-box-3 {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.next-icone-box {
+    width: 941.22px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.next-icone-title {
+    color: rgba(13, 19, 33, 1);
+
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.next-icone-description {
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.next-icone-btn {
+    color: rgba(13, 19, 33, 1);
+
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.frame-4 {
+    width: 1253px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: 140px;
+    margin-right: 145px;
+    margin-top: 60px;
+    background-image: url(../style/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
